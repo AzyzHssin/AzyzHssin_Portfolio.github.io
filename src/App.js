@@ -50,8 +50,8 @@ function App() {
         <div className='flex items-center justify-center'>
           <img 
           className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0'
-          src="" 
-          alt=""
+          src={Avatar}
+          alt="AzyzHssin Avatar"
           />
           </div>
       </footer>

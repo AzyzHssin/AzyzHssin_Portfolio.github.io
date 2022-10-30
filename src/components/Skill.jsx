@@ -18,10 +18,10 @@ function Skill({directionLeft}) {
             _id:3,
             image:"https://cdn.sanity.io/images/10ba2g2h/production/2f4da221fbdde8588262b191d774817b3af45350-250x250.png?w=2000&fit=max&auto=format"
         },
-        {
+       /*  {
             _id:4,
             image:"https://cdn.sanity.io/images/10ba2g2h/production/68ee7f9d17c6dd25ea34aed795bc1025cc3a14e7-600x600.png?w=2000&fit=max&auto=format"
-        },
+        }, */
         {
             _id:5,
             image:"https://cdn.sanity.io/images/10ba2g2h/production/713e2e7dcf9a31a2bce6966da21aa3c75097bb7b-250x250.png?w=2000&fit=max&auto=format"
