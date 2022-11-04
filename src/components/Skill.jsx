@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-
+import reactImg from "../assets/graphql.png"
 const directionLeft = true || false
 
 
@@ -8,11 +8,11 @@ function Skill({directionLeft}) {
     const skill = [
         {
             _id:1,
-            image:"https://cdn.sanity.io/images/10ba2g2h/production/a2325fb8204eca5889fe0264858d092e910550cc-1100x400.png?w=2000&fit=max&auto=format",
+            image:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
         },
         {
             _id:2,
-            image:"https://cdn.sanity.io/images/10ba2g2h/production/e2e681ab1fa8beb147fe6f4226ab0efd830b9a86-2048x2048.png?w=2000&fit=max&auto=format"
+            image:reactImg
         },
         {
             _id:3,
@@ -48,12 +48,12 @@ function Skill({directionLeft}) {
         },
         {
             _id:11,
-            image:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
+            image:"https://cdn.sanity.io/images/10ba2g2h/production/a2325fb8204eca5889fe0264858d092e910550cc-1100x400.png?w=2000&fit=max&auto=format",
         }
     ]
   return (
-    <div className='group relative flex cursor-pointer '>
-        <div className="items-center justify-center grid grid-cols-3 sm:grid-cols-4 gap-8">
+    <div className=' flex cursor-pointer '>
+        <div className="items-center justify-center grid grid-cols-3 mt-10 sm:grid-cols-4 gap-8 " >
         {skill.map((info) => (
             
             <motion.img 
@@ -61,11 +61,14 @@ function Skill({directionLeft}) {
                 x: directionLeft ? -200: 200,
                 opacity: 0
             }}
+            
             transition={{ duration: 1 }}
             whileInView={{ opacity: 1, x:0 }}
             src={info.image}
             className='rounded-full border border-gray-800 object-cover w-14 h-14 md:w-20 md:h-20 xl:w-25 xl:h-25 filter transition duration-300 ease-in-out'
+            
             />
+
             ))}
           
             </div>

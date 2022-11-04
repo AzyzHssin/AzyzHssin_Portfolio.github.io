@@ -16,7 +16,7 @@
             tech3:"https://cdn.sanity.io/images/10ba2g2h/production/a2325fb8204eca5889fe0264858d092e910550cc-1100x400.png?w=2000&fit=max&auto=format",
             link:"https://www.youtube.com/watch?v=x4Nt0OHWNA4"
           },
-          {
+          /* {
             _id: 2,
             title: "Movie-World",
             image: "https://cdn.sanity.io/images/10ba2g2h/production/a03bb63929d714cd40950b5c72257ad70fdafe0e-480x320.jpg?w=2000&fit=max&auto=format",
@@ -26,7 +26,7 @@
             tech2:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
             tech3:"https://cdn.sanity.io/images/10ba2g2h/production/a2325fb8204eca5889fe0264858d092e910550cc-1100x400.png?w=2000&fit=max&auto=format",
             link:"https://www.youtube.com/watch?v=A20AAmvLjTs"
-          },
+          }, */
           {
             _id: 3,
             title: "Symphony-T",

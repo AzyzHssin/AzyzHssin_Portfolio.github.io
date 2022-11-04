@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import Avatar from '../src/assets/heroImage.png'
-
+import Resume from './components/Resume'
 
 function App() {
   return (
@@ -30,6 +30,11 @@ function App() {
         <WorkExperience />
       </section> */}
 
+      {/* Resume */}
+      <section id="skills" className='snap-start'>
+        <Resume />
+      </section>
+      
       {/* skills */}
       <section id="skills" className='snap-start'>
         <Skills />
