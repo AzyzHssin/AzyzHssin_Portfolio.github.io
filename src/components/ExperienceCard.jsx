@@ -14,6 +14,7 @@ function ExperienceCard() {
       company:"Green-Aura",
       image1:"https://cdn.sanity.io/images/10ba2g2h/production/d62c5f60246264285ea935f5fbd6952b7f77d7cd-3000x2675.png?w=2000&fit=max&auto=format",
       image2:"https://cdn.sanity.io/images/10ba2g2h/production/2d6776cd8ccaa53c6e548e03117671e1de4aa510-629x629.png?w=2000&fit=max&auto=format",
+      
     },
   ]
 

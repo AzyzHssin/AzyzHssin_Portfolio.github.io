@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import reactImg from "../assets/graphql.png"
+import nextImg from "../assets/nextjs.png"
 const directionLeft = true || false
 
 
@@ -8,16 +9,17 @@ function Skill({directionLeft}) {
     const skill = [
         {
             _id:1,
-            image:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
-        },
+            image:"https://cdn.sanity.io/images/10ba2g2h/production/2f4da221fbdde8588262b191d774817b3af45350-250x250.png?w=2000&fit=max&auto=format"
+         },
         {
             _id:2,
             image:reactImg
         },
         {
             _id:3,
-            image:"https://cdn.sanity.io/images/10ba2g2h/production/2f4da221fbdde8588262b191d774817b3af45350-250x250.png?w=2000&fit=max&auto=format"
-        },
+            image:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
+        
+           },
        /*  {
             _id:4,
             image:"https://cdn.sanity.io/images/10ba2g2h/production/68ee7f9d17c6dd25ea34aed795bc1025cc3a14e7-600x600.png?w=2000&fit=max&auto=format"
@@ -58,7 +60,7 @@ function Skill({directionLeft}) {
             
             <motion.img 
             initial={{
-                x: directionLeft ? -200: 200,
+                
                 opacity: 0
             }}
             

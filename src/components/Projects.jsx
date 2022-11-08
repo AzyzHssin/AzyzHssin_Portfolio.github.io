@@ -2,7 +2,9 @@
       import React from 'react'
       import { motion } from "framer-motion";
       import { Link } from 'react-router';
-
+      import cinemaImg from "../assets/cinema.png"
+      import cssImg from "../assets/css.png"
+      import javascriptImg from "../assets/javascript.png"
       function Projects() {
         const projects = [
           {
@@ -49,6 +51,17 @@
             tech3:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
             link:"https://www.youtube.com/watch?v=_tU1NkPHu3E"
           },
+          {
+            _id: 5,
+            title: "Tonight-Movies",
+            image: cinemaImg,
+            summary:"A web application for making a reservation to watch a movie",
+            tech:"https://cdn.sanity.io/images/10ba2g2h/production/c82cfb29dfa05aa4c8f4d0038576b5b4b3f2c57d-1200x1040.png?w=2000&fit=max&auto=format",
+            tech1:"https://cdn.sanity.io/images/10ba2g2h/production/713e2e7dcf9a31a2bce6966da21aa3c75097bb7b-250x250.png?w=2000&fit=max&auto=format",
+            tech2:cssImg,
+            tech3:javascriptImg,
+            link:"https://youtu.be/qtzTMNw2Vkw"
+          },
           // {
           //   _id: 5,
           //   title: "https://github.com/Oussama-Fajraoui/Fav-Movies",
@@ -68,7 +81,7 @@
           whileInView={{opacity: 1}}
           transition={{duration: 1.5}}
           className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
-          <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2x1'>
+          <h3 className='absolute top-0 uppercase tracking-[20px] text-gray-500 text-2x1'>
               Projects
           </h3>
           <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin'>
