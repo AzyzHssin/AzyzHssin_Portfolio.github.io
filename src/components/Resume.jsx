@@ -17,7 +17,7 @@ function Resume() {
   ]
   return (
 <div>
-<a  href="https://files.fm/f/9xv4prqd7" title="Resume">
+<a  href="https://files.fm/f/8saduabfy" title="Resume">
     <motion.div 
     initial={{ opacity: 0 }}
     whileInView={{opacity: 1}}
