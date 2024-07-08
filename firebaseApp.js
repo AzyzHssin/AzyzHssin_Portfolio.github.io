@@ -1,4 +1,4 @@
-// Import the functions you need from the SDKs you need
+/* // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {getStorage ,getDownloadURL
     , ref} from "firebase/storage"
@@ -25,33 +25,26 @@ const storage =  getStorage();
 
 const pdfRef = ref(storage,'Mohamed Aziz Hssin_fr.pdf')
 const analytics = getAnalytics(app);
+ */
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBMqCHV72jJbZXUvz06HVFfW7_ZftYeER4",
+  authDomain: "emna-s-portfolio.firebaseapp.com",
+  projectId: "emna-s-portfolio",
+  storageBucket: "emna-s-portfolio.appspot.com",
+  messagingSenderId: "539201932618",
+  appId: "1:539201932618:web:43ec433fa6e26c104585b3",
+  measurementId: "G-4J5FT9L2RB"
+};
 
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-getDownloadURL(pdfRef).then((url)=>{
-    const xhr = new XMLHttpRequest()
-    xhr.onload=(event)=>{
-        const blob = xhr.response;
-    };
-    const pdf = document.getElementById('pdfImage');
-    pdf.setAttribute('src',url)
-    console.log("assiging url to the pdf succeeded")
-}
-   
-).
-catch((erroe)=>{
-    console.log("downloading pdf failed")
-}) */
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
