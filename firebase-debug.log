@@ -1,13 +1,13 @@
-[debug] [2024-07-08T22:55:11.020Z] ----------------------------------------------------------------------
-[debug] [2024-07-08T22:55:11.024Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aziz Hssin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2024-07-08T22:55:11.024Z] CLI Version:   13.13.0
-[debug] [2024-07-08T22:55:11.024Z] Platform:      win32
-[debug] [2024-07-08T22:55:11.024Z] Node Version:  v20.15.1
-[debug] [2024-07-08T22:55:11.025Z] Time:          Mon Jul 08 2024 23:55:11 GMT+0100 (heure normale d’Europe centrale)
-[debug] [2024-07-08T22:55:11.025Z] ----------------------------------------------------------------------
+[debug] [2024-07-08T23:02:04.828Z] ----------------------------------------------------------------------
+[debug] [2024-07-08T23:02:04.830Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aziz Hssin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-07-08T23:02:04.831Z] CLI Version:   13.13.0
+[debug] [2024-07-08T23:02:04.831Z] Platform:      win32
+[debug] [2024-07-08T23:02:04.831Z] Node Version:  v20.15.1
+[debug] [2024-07-08T23:02:04.831Z] Time:          Tue Jul 09 2024 00:02:04 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2024-07-08T23:02:04.832Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-07-08T22:55:11.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-07-08T22:55:11.112Z] > authorizing via signed-in user (mohamedaziz.hssin@sesame.com.tn)
+[debug] [2024-07-08T23:02:04.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-08T23:02:04.916Z] > authorizing via signed-in user (mohamedaziz.hssin@sesame.com.tn)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -31,12 +31,56 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2024-07-08T22:55:13.142Z] Using project from CLI flag: emna-s-portfoli
-[debug] [2024-07-08T22:55:13.146Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli [none]
-[debug] [2024-07-08T22:55:14.005Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli 403
-[debug] [2024-07-08T22:55:14.005Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2024-07-08T22:55:14.007Z] HTTP Error: 403, The caller does not have permission
-[debug] [2024-07-08T22:55:14.269Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2024-07-08T23:02:05.676Z] Using project from CLI flag: emna-s-portfoli
+[debug] [2024-07-08T23:02:05.681Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli [none]
+[debug] [2024-07-08T23:02:06.395Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli 403
+[debug] [2024-07-08T23:02:06.395Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-07-08T23:02:06.396Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-07-08T23:02:06.654Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Aziz Hssin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Aziz Hssin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project emna-s-portfoli. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-07-08T23:03:12.406Z] ----------------------------------------------------------------------
+[debug] [2024-07-08T23:03:12.409Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aziz Hssin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-08T23:03:12.409Z] CLI Version:   13.13.0
+[debug] [2024-07-08T23:03:12.409Z] Platform:      win32
+[debug] [2024-07-08T23:03:12.409Z] Node Version:  v20.15.1
+[debug] [2024-07-08T23:03:12.410Z] Time:          Tue Jul 09 2024 00:03:12 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2024-07-08T23:03:12.410Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-08T23:03:12.491Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-08T23:03:12.491Z] > authorizing via signed-in user (mohamedaziz.hssin@sesame.com.tn)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Portfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-08T23:03:23.915Z] Using project from CLI flag: emna-s-portfoli
+[debug] [2024-07-08T23:03:23.917Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli [none]
+[debug] [2024-07-08T23:03:24.619Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli 403
+[debug] [2024-07-08T23:03:24.620Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/emna-s-portfoli {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-07-08T23:03:24.622Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-07-08T23:03:24.848Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\Aziz Hssin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\Aziz Hssin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
