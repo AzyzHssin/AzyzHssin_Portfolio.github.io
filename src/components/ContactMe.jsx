@@ -20,21 +20,21 @@ function ContactMe() {
 
                 <div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                <p className='text-2x1'>+216 28 315 166</p>
+                <p className='text-2x1'>+216 94 137 608</p>
                 </div>
 
                 <div className='flex items-center space-x-5 justify-center'>
                 <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                <p className='text-2x1'>Hssine.medaziz1@gmail.com</p>
+                <p className='text-2x1'>emnan279@gmail.com</p>
                 </div>
 
                 <div className='flex items-center space-x-5 justify-center'>
                 <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                <p className='text-2x1'>11 rue tajikistan El mourouj 4-Ben arous Tunis</p>
+                <p className='text-2x1'>Megrine Tunis</p>
                 </div>
             </div>
             <form 
-            action="https://getform.io/f/cd2fe482-cfab-45f9-8ca2-b80b69e2bfb4" //changed
+            action="https://getform.io/f/anleegva" //changed
             method='POST'
              className='flex flex-col space-y-2 w-fit width 25% mx-auto *'>
                 <div className='flex space-x-2 '>

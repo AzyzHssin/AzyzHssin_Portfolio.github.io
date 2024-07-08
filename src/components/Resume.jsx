@@ -1,13 +1,13 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import ResumeAzyzHssin1 from "../assets/resumePage1.png"
+import ResumeEmnaNefzi from "../assets/Emna-Nefzi-CV (4).png"
 import ResumeAzyzHssin2 from "../assets/resumePage2.png"
 
 
 function Resume() {
   const pageInfo = [
     { 
-      ResumeImg:ResumeAzyzHssin1,
+      ResumeImg:ResumeEmnaNefzi,
       backgroundInformation:"Page 1"
     },
     {
@@ -17,7 +17,7 @@ function Resume() {
   ]
   return (
 <div>
-<a  href="https://files.fm/f/8saduabfy" title="Resume">
+<a  href="https://files.fm/u/cadw2ufdn7" title="Resume">
     <motion.div 
     initial={{ opacity: 0 }}
     whileInView={{opacity: 1}}

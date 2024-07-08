@@ -2,7 +2,7 @@ import React from 'react'
 import {useTypewriter, Cursor} from "react-simple-typewriter"
 import BackgroundCircles from './BackgroundCircles';
 import AnimatedCursor from "react-animated-cursor"
-import ProfilePic from "../assets/heroImage.png"
+import ProfilePic from "../assets/e04.jpg"
 
 
 
@@ -10,14 +10,14 @@ export default function Hero() {
     const pageInfo = [
         {
             heroImage:ProfilePic,
-            role:"Full-Stack JavaScript Developer",
+            role:"Web and IoT Applications Developer",
         }
     ]
 
     const [text,count] = useTypewriter({
         words: [
-          `Hi, My Name is Azyz Hssin`,
-          `Guy Who loves To Code`
+          `Hi, My Name is Emna Nefzi`,
+          `A Girl Who loves To Code`
         ],
         loop: true,
         delaySpeed: 2000,
@@ -29,7 +29,7 @@ export default function Hero() {
     <img 
     src={info.heroImage}
     className='relative rounded-full h-40 w-40 mx-auto object-cover'
-    alt="Azyz.Hssin"
+    alt="Emna.Nefzi"
     />     
 ))} 
         <div className='z-20'>

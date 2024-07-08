@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
-import Avatar from '../src/assets/heroImage.png'
+import Avatar from '../src/assets/e03.jpg'
 import Resume from './components/Resume'
 
 
@@ -59,7 +59,7 @@ function App() {
           <img 
           className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0'
           src={Avatar}
-          alt="AzyzHssin Avatar"
+          alt="EmnaNefzi Avatar"
           />
           </div>
       </footer>

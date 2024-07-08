@@ -11,7 +11,7 @@ export default function Header() {
   const socials = [
     {
       _id: 1,
-      url:"https://www.linkedin.com/in/azyz-hssin-848363220/",
+      url:"https://www.linkedin.com/in/emna-nefzi-76b25227a/",
     },
     {
       _id: 2,
@@ -19,11 +19,11 @@ export default function Header() {
     },
     {
       _id: 3,
-      url:"https://www.facebook.com/azyz.hssin.1",
+      url:"https://www.facebook.com/emna.nefzi.73",
     },
     {
       _id:4,
-      url:"https://api.whatsapp.com/send?phone=28315166"
+      url:"https://api.whatsapp.com/send?phone=94137608"
     }
   ]
   return (
